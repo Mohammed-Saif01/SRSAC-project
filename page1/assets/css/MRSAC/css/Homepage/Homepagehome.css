@@ -1,0 +1,25 @@
+.new_custom  {
+    color: #443f38!important;
+}.blink {
+        animation: blinker 0.6s linear infinite;
+        color: red;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-top: 0px;
+      }
+      @keyframes blinker {
+        50% {
+          opacity: 0;
+        }
+      }
+      .clearboth{clear:both;}
+      .paddtop0{padding-top:0px !important;}
+      .video_descname{margin-top: 0px;color: rgb(0 0 0); width:100%;}
+      .noimageavl{    font-weight: 600;  color: #2f619e; margin: 0px 0px 0px 84px;}
+      .margin-top3{margin-top: 3px;}
+      .margin-top24{margin-top: 24px;}
+      .margin-top20{margin-top: 20px;}
+      .overflowhide{overflow: hidden;}
+      .posrel{position: relative;}
+      .top12{top: 12px;}
+      .marall3{margin: 0px 0px 3px 0px!important;}

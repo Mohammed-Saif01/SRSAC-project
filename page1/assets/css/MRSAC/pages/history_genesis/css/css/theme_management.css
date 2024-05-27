@@ -1,0 +1,161 @@
+/* theme management starts here 07/03/2018 Mohnish Giripunje */
+body.black_theme, body.black_theme#star-ratings-css-top {
+    color: gold!important;
+  
+}
+body.black_theme, body.black_theme *{
+    color:yellow!important;
+    background-color: #333333!important;
+	/*line-height: 1.42857143;*/
+}
+
+body.black_theme, body.black_theme  span{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme a  span{
+    color: yellow!important;
+  
+}
+body.black_theme, body.black_theme  p{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  h5{
+    color:white!important;
+  
+}
+
+body.black_theme, body.black_theme  li{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme .book-description{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme .light_sky{
+    background-color:#fff700!important;
+  
+}
+body.black_theme, body.black_theme .grey {
+    background-color:white!important;
+  
+}
+
+
+body.black_theme, body.black_theme  h3{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  em{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  pre{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  b{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  strong{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  table td{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  table th{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  table label{
+    color:white!important;
+  
+}
+body.black_theme, body.black_theme  table thead{
+    color:white!important;
+  
+}
+
+
+
+
+
+a.black_theme, a.black_theme *{
+color:yellow!important;
+  
+}
+body.black_theme, body.black_theme .footer-bg{
+ background: white!important;
+}
+body.black_theme, body.black_theme .navbar ul li ul li{
+    
+    border-bottom: 1px solid orange!important;
+}
+body.black_theme, body.black_theme .navbar ul li ul li:hover a{ 
+   background: #ffff00cf!important;
+    color: black!important;}
+body.black_theme, body.black_theme.navbar-inverse {
+    background: orange!important;
+   
+}
+body.black_theme, body.black_theme.mt173
+{
+		margin-top: -19px;
+	}
+body.black_theme, body.black_theme.playpause{
+    background-color: #9c313108!important;	
+
+}
+body.black_theme, body.black_theme.inner-page-heading {
+ 
+    color: white!important;
+    
+}
+body.black_theme, body.black_theme.new_custom {
+    color: white!important;
+}
+body.black_theme, body.black_theme.light_sky {
+   background-color: #d4d405!important;
+    color: white;
+}
+body.black_theme, body.black_theme.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:active {
+    color: #fff;
+    background-color:#00007b!important;
+}
+body.black_theme, body.black_theme.dashboard_menu ul li ul li a:hover{ background-color: black!important;}
+body.black_theme, body.black_theme.dashboard_menu ul li:hover{background-color: #333333!important;}
+
+.black-bg {
+ 
+    background-image: url(../images/black.jpg)!important; 
+    background-size: cover;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.star-ratings-css-top_gold{
+ color: gold!important;
+
+}
+.directory_search_box_for_menu {
+    border: 1px solid #d65800!important;
+
+}
+.dashboard_menu_black_theme ul li a {
+  color: #e7f510!important;
+    
+}
+.test{
+   border: 1px solid #2c75c2!important;
+}
+body.black_theme, body.black_theme.margin_default{
+margin-top: -7px;
+
+}
+

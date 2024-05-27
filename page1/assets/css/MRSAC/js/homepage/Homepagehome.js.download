@@ -1,0 +1,56 @@
+ $( document ).ready(function() {
+$('#get_menu_id_for_photo').on('click',function(){
+get_menu_id_for_photo(32);
+$('#vol-control').on('change',function(){
+				SetVolume($(this).val());
+                }); 
+$('#vol-control').on('input',function(){
+				SetVolume($(this).val());
+                }); 
+                });
+
+$('#play_video').on('click',function(){
+play_video();
+                });
+
+$('#pause_video').on('click',function(){
+pause_video();
+                });
+
+$('body').on('contextmenu', '#myVideo', function(e){
+	        return false;
+  
+});
+$('body').on('ended', '#myVideo', function(e){
+	        videoEnded();
+  
+});
+
+
+}); 
+ $(function() {
+      $('#slides').slidesjs({
+	  width: 1366,
+      height: 350,
+	  play: {
+	  active: true,
+	  auto: true,
+	  interval: 4000,
+	  swap: true
+        }
+      });
+    });
+	
+	function get_menu_id_for_photo(menu_id){
+			
+				$.ajax({
+					
+					url: window.location.protocol +'//'+ window.location.hostname + '/MRSAC_updated/app/save_menu_id_session/' + menu_id,
+					
+				});
+				
+				// This "for loop" is used as delay function (Done by pravin 19-01-2018)
+				for(var i=0; i<1000000000; i++){}
+				//alert();
+			}
+			

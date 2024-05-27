@@ -1,0 +1,795 @@
+
+
+<!-- on 23-10-2017, Below noscript tag added to check if browser Scripting is working or not, if not provided steps --> 
+<noscript>
+        
+<div class="form-style-3">
+
+<fieldset><legend><span class="uiHeader">JavaScript Required</span></legend>
+<span>
+We're sorry, but this site doesn't work properly without JavaScript enabled. If you can't enable JavaScript please <a href="view/javascript_enable_setting">click here</a> to view settings.
+</span><br><br>
+<button class="pull-right" id="myFunction">Reload Page</button>
+
+</fieldset> 
+</div>
+<link rel="stylesheet" href="assets/css/MRSAC/css/element/javascript_disable_msg_box.css"/><script src="assets/css/MRSAC/js/element/javascript_disable_msg_box.js"></script></noscript>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+ 
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/cwdialog.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/../chosen-select/chosen.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/../multipleselect/css/bootstrap-multiselect.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/../multiselect/jquery.multiselect.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/style.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/allinone.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/common.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/../font-awesome/css/font-awesome.min.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/../DataTables/datatables.min.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/ui.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/datepicker.css"/>
+<link rel="stylesheet" href="assets/css/MRSAC/css/black_theme/theme_management.css"/>
+<script src="assets/css/MRSAC/js/jquery.min.js"></script>
+<script src="assets/css/MRSAC/js/md5.js"></script>
+<script src="assets/css/MRSAC/js/cwdialog.js"></script>
+<script src="assets/css/MRSAC/js/admin_forms_validation.js"></script>
+<script src="assets/css/MRSAC/js/table_filter.js"></script>
+<script src="assets/css/MRSAC/js/../DataTables/datatables.min.js"></script>
+<script src="assets/css/MRSAC/js/ui.js"></script>
+<script src="assets/css/MRSAC/js/ckeditor/ckeditor.js"></script>
+<script src="assets/css/MRSAC/js/../chosen-select/chosen.jquery.js"></script>
+<script src="assets/css/MRSAC/js/../multiselect/jquery.multiselect.js"></script>
+<script src="assets/css/MRSAC/js/../multipleselect/js/bootstrap-multiselect.js"></script>
+<script src="assets/css/MRSAC/js/font_manager.js"></script>
+<script src="assets/css/MRSAC/js/languageManager.js"></script>
+<script src="assets/css/MRSAC/js/pageloading.js"></script>
+
+ 
+<input type="hidden" name="siteURLvalue" id="siteURLvalue" value="/MRSAC/">
+<title>Home Maharashtra Remote Sensing Application Centre</title>
+<link rel="shortcut icon" href="assets/css/MRSAC/images/mrsac_logo.png">
+</head>
+
+
+<body id="fronthomelayoutBody">
+
+        <div class="page">
+<div id="loading"></div>
+
+    <link rel="stylesheet" href="assets/css/MRSAC/css/element/frontend_pages_view/frontend_site_header.css"/><script src="assets/css/MRSAC/js/element/frontend_pages_view/frontend_site_header.js"></script>
+<div class="container-fluid top-gray no-padding navbar-fixed-top">
+    <div class="container no-padding">
+        <div class="col-md-12 no-padding top no-padding">
+        <div class="col-md-4 col-sm-5 col-xs-6"><p class="text-left"><a href="assets/css/MRSAC/pages/screen_reader_access" >Screen Reader Access  </a></p>
+        <p class="text-left"><a href="https://harghartiranga.com/" target="_blank"><img src="assets/css/MRSAC/images/flag.png" height ="20" ><strong>घरोघरी तिरंगा    </strong></a></p>
+        
+        </div>
+        <div class="col-md-5 col-sm-7 col-xs-6 no-padding" >
+        <!--<div class="col-md-4 col-sm-2 col-xs-4 border-right"><p><a href="assets/css/MRSAC/users/login_user">Employee Login</a></p></div>-->
+        <!--<div class="col-md-3 col-sm-3 col-xs-4 border-right no-padding"><p><a href="#">Register</a></p></div>-->
+        <div class="col-md-3 col-sm-3 col-xs-4 border-right sizechanger"><p><a href="#" id="13px_font">-A</a> <a href="#"  id="14px_font">-A</a> &nbsp; &nbsp;<a href="#" id="shrinkfontremove">A </a>&nbsp; &nbsp;<a href="#" id="15px_font">+A</a><a href="#" id="16px_font">+A</a></p></div>
+        <a href="#" id="remove_black_theme"><div class="col-md-1 sizechanger" ><img src="assets/css/MRSAC/img/A_white.png" class="imageA"> </div></a>
+        <a href="#" id="add_black_theme"><div class="col-md-1 sizechanger bg-dark"><p class="text-white text-center">A</p></div></a>
+                <div class="col-md-2 col-sm-3 col-xs-4 no-padding padding-top5px"><a href=""  id="change_language1" ><img src="assets/css/MRSAC/images/marathi.png"  class="img-responsive mar_eng_image"></a></div>
+                </div>
+        
+        
+        <div class="col-md-3 col-sm-7 col-xs-6 no-padding margin-top4">
+    <form method="post" accept-charset="utf-8" autocomplete="off" id="search_form" action="/MRSAC/sitesearch/search" action="/MRSAC/"><div style="display:none;"><input type="hidden" name="_csrfToken" autocomplete="off" value="RcPCuM3yFeVi5h/dh67RQraX7gzL1DrP4BuImZZH6d3CH3v/R7+9LwQjrH5D69mKMht3Ew/vqkubn2OO3LUUkI/a/gTT8jzuj6aNavjlCPbWLb+opSSM6fEnT85z2YscZkfOGCbZ7b0CfRYrbd+ZfQ=="/></div>     
+            <div id="search" class="pull-left">
+            <img src="assets/css/MRSAC/img/searchicon1.png" class="img-responsive" id="open_search">
+            </div>
+            <div  id="hide_bydefault_search" class="pull-left">
+            <label id="search_label" for="search" class="mar-right10">Search:</label>
+            <input type="text" onfocus="this.value=''" id="search" name="search" value=" Enter the Text" class="search_for_homepage" maxlength="50" size="12" tabindex="11">
+            <input type="submit" value="GO" title="GO"  tabindex="12" name="search_result" class="submitGo123"></div>
+        
+            <div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="6298f70b223a905ac5f608f3046e82e91aa7c3ae%3A"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value=""/></div></form>           </div>
+        </div>
+    </div>
+    
+         <!-- Navigation -->
+    <div class="container-fluid no-padding navdivpadbgwhite">
+        
+        <div class="container no-padding">
+            <div class="col-md-12 col-sm-12 col-xs-12 no-padding">
+                
+                                        <!-- make header image dynamic , Done by Mohammed Saif 20-05-2024 -->
+                        <a href="assets/css/MRSAC/"><img src="assets/css/writereaddata/MRSAC/files/15506473585c6d003ed8736logo.jpg"  alt="MAHARASHTRA REMOTE SENSING APPLICATION CENTRE (Autonomous Body of Planning Department, Govt. of Maharashtra) "            class="img-responsive"></a>
+                                        
+            </div>
+        </div>
+        
+        
+    </div>
+ <!--<div style="clear:both;"></div> -->
+
+     
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+           <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                </div>
+                 <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse no-padding " id="bs-example-navbar-collapse-1">
+             <link rel="stylesheet" href="assets/css/MRSAC/css/element/site_menus/top_menu.css"/><ul class="nav navbar-nav">
+<li>
+        
+    
+        <a id="22" class="get_menu_id" href="/MRSAC/"  >Home</a>
+
+            
+    <ul class="test hover_submenu">
+        </ul>
+ </li>
+<li>
+                   
+                   <a href="#">About Us</a>
+                                                
+                                                
+        
+    <ul class="test hover_submenu">
+                
+             
+            <li>
+            <a href="assets\css\MRSAC\pages\history_genesis\history_genesis.html" id="72" class="get_menu_id">History and Genesis</a>  
+            </li>    
+        
+                
+             
+            <li>
+            <a href="assets/css/MRSAC/pages/history_genesis\history_genesis.html#director" id="71" class="get_menu_id">Director`s Desk</a>  
+            </li>   
+        
+                
+             
+            <li>
+            <a href="assets/css/MRSAC/pages/vision_and_mission" id="42" class="get_menu_id">Vision And Mission</a>    
+            </li>   
+        
+                
+             
+            <li>
+            <a href="assets/css/MRSAC/pages/governing_body" id="76" class="get_menu_id">Governing Body</a>    
+            </li>   
+        
+                
+             
+            <li>
+            <a href="assets/css/MRSAC/pages/executive_comittee" id="75" class="get_menu_id">Executive Comittee</a>    
+            </li>   
+        
+                
+             
+            <li>
+                        
+                <a id="27" class="get_menu_id" href="assets/css/MRSAC/orgchart/organisation_structure">Organisation Structure</a>
+            
+                        
+            
+                
+            </li>   
+        
+        </ul>
+ </li>
+<li>
+                   
+                   <a href="#">Facilities</a>
+                                                
+                                                
+        
+    <ul class="test hover_submenu">
+                
+             
+            <li>
+            <a href="/MRSAC/pages/geographical_information_system_gis_lab" id="80" class="get_menu_id">Geographical Information System (GIS)-LAB</a>    
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/photogrammetry_lab" id="81" class="get_menu_id">Photogrammetry- Lab</a>   
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/uav_drone_lab" id="82" class="get_menu_id">UAV-Drone-LAB</a>  
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/software_development_lab" id="83" class="get_menu_id">Software Development-Lab</a>    
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/central_data_storage_system" id="89" class="get_menu_id">Central Data Storage System</a>  
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/library_facility" id="88" class="get_menu_id">Library Facility</a>    
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/auditorium" id="84" class="get_menu_id">Auditorium</a>    
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/conference_room" id="85" class="get_menu_id">Conference Room</a>  
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/power_supply" id="86" class="get_menu_id">Power Supply</a>    
+            </li>   
+        
+                
+             
+            <li>
+            <a href="/MRSAC/pages/canteen_facility" id="87" class="get_menu_id">Canteen Facility</a>    
+            </li>   
+        
+        </ul>
+ </li>
+<li>
+        
+    
+        <a id="19" class="get_menu_id" href="/MRSAC/flipbook/projects"  >Projects</a>
+
+            
+    <ul class="test hover_submenu">
+        </ul>
+ </li>
+<!--<li>
+<a href="/MRSAC/pages/web_applications" id="90" class="get_menu_id">Web Applications</a>
+    <ul class="test hover_submenu">
+        </ul>
+ </li>
+<li>
+        
+    
+        <a id="91" class="get_menu_id" href="/MRSAC/mobiledirectory/list_of_mobile_directory"  >Mobile Applications</a>
+
+            
+    <ul class="test hover_submenu">
+        </ul>
+ </li>-->
+<li>
+        
+    
+        <a id="5" class="get_menu_id" href="assets/css/MRSAC/map/map"  >Maps</a>
+
+            
+    <ul class="test hover_submenu">
+        </ul>
+ </li>
+<li>
+                   
+                    
+                                                
+                                                
+        
+    <ul class="test hover_submenu">
+                
+             
+            <li>
+                        
+                <a id="59" class="get_menu_id" href="/MRSAC/recruitmentfront/current_posting">Current  Vacancies</a>
+            
+                        
+            
+                
+            </li>   
+        
+                
+             
+            <li>
+                        
+                <a id="62" class="get_menu_id" href="/MRSAC/recruitmentfront/application_status">Application Status</a>
+            
+                        
+            
+                
+            </li>   
+        
+        </ul>
+ </li>
+<li>
+        
+    
+        <a id="35" class="get_menu_id" href="assets/css/MRSAC/feedbacks/add_feedbacks"  >Feedback</a>
+
+            
+    <ul class="test hover_submenu">
+        </ul>
+ </li>
+<li>
+<a href="assets/css/MRSAC/pages/contact_us" id="8" class="get_menu_id">Contact Us</a>
+    <ul class="test hover_submenu">
+        </ul>
+ </li>
+    
+</ul>
+<input type="hidden" name="" id="dynamic_menu_home" class="form-control" value="&lt;?=$dynamic_menu_home;?&gt;"/><input type="hidden" name="" id="fetched_menu_title" class="form-control" value="&lt;?=$fetched_menu_title;?&gt;"/><script src="assets/css/MRSAC/js/element/site_menus/top_menu.js"></script>           
+        </div>
+        
+        </div>
+        <!-- /.container -->
+    </nav>
+    </div>
+    
+    <!-- Header Carousel -->
+    
+    <div class="container-fluid no-padding mt173">
+    
+                  <div id="slides">
+
+                    <img src="assets/css/writereaddata/MRSAC/files/15592031065cef8d22df03dsanju_varma___.jpg"  height="100%" width="100%">
+                    
+                    <img src="assets/css/writereaddata/MRSAC/files/15641360035d3ad2434243dLONAR_LAKE.jpg"  height="100%" width="100%">
+                    
+                    <img src="assets/css/writereaddata/MRSAC/files/15641368265d3ad57adf357DYKES.jpg"  height="100%" width="100%">
+                    
+                    <img src="assets/css/writereaddata/MRSAC/files/15641370885d3ad680bebe1MEANDRING_OF_RIVER.jpg"height="100%"width="100%">
+                    
+                    <img src="assets/css/writereaddata/MRSAC/files/15641372075d3ad6f724fe9RAVINES.jpg"  height="100%" width="100%">
+                    
+                    <img src="assets/css/writereaddata/MRSAC/files/15641386915d3adcc35c9a5WIND_MILLS.jpg"  height="100%" width="100%">
+                    
+                    <img src="assets/css/writereaddata/MRSAC/files/15641417405d3ae8ac1d6dfMURUD_JANJEERA_FORT.jpg"  height="100%" width="100%">
+          
+                </div>
+             
+    </div><div class="clear"></div>
+    <!-- showing error for if post returns null this will keep the form data prevented added by amey s. on 21/10/2021 -->
+                        
+    <!-- fetching page data start-->    
+        
+                                        
+    <form method="post" accept-charset="utf-8" autocomplete="off" id="homepage_form_id" action="/MRSAC/"><div style="display:;"><input type="hidden" name="_csrfToken" autocomplete="off" value="RcPCuM3yFeVi5h/dh67RQraX7gzL1DrP4BuImZZH6d3CH3v/R7+9LwQjrH5D69mKMht3Ew/vqkubn2OO3LUUkI/a/gTT8jzuj6aNavjlCPbWLb+opSSM6fEnT85z2YscZkfOGCbZ7b0CfRYrbd+ZfQ=="/></div>                    <!-- Header Carousel -->
+                <!-- Marketing Icons Section -->
+
+                <!-- About Section Start-->
+                <div class="container no-padding mt-30">
+                    <div class="col-lg-12 col-sm-12 col-xs-12 custome ">
+            
+                <h3 class="main-heading hr" style="display: block; color: black; padding-top: 110px;">ABOUT</h3>
+                <span class="orange font_orange" style="display: inline; color: orange;padding-top:70px;">Maharashtra Remote Sensing Application Centre</span>
+
+
+                <div class="clearboth"></div>
+                <br>
+                <p><p style="margin-left:0cm; margin-right:0cm; text-align:justify;"><span style="font-family:Arial,Helvetica,sans-serif"><strong>&nbsp; &nbsp; &nbsp;M</strong>aharashtra <strong>R</strong>emote <strong>S</strong>ensing <strong>A</strong>pplication <strong>C</strong>entre (MRSAC), was set up by Government of Maharashtra, in 1988, under the Societies Registration Act, 1860 as an Autonomous body under the administrative control of its Planning Department, to utilize and operationalize the use of space technology for managing and monitoring the natural resources of the State,&nbsp; as well as the developments and changes in the urban society. From the humble beginning on &nbsp;18<sup>th</sup>January 1988, with a Small Laboratory premises near Department of Electrical Engineering, Visvesvaraya National Institute of Technology, (V.N.I.T) (erstwhile VRCE) at Nagpur with four scientists, four technical and five supporting staff mostly on deputation, &nbsp;a piece of land admeasuring 0.30 hectare, was allotted within the campus of V.N.I.T. (VRCE), Nagpur on lease basis for setting up an independent establishment. The Centre with aesthetic excellence in civil engineering, structurally sound, self-sufficient building was developed, and the Centre started functioning from this new edifice from August 1994.<br />
+&nbsp; &nbsp; &nbsp;Centre is &nbsp;forging ahead in disseminating geospatial data to the entire state; is contributing significantly in generating voluminous spatial databases on various themes from urban, industries, ecology and forest, rivers, drainages, waterbodies, agriculture, geology, geomorphology etc. &nbsp;for Maharashtra, from small scale through to very large scale. MRSAC guides users and user departments, with geospatial solution through the use of remote sensing datasets and GIS, and decision support system. MRSAC is playing a pivotal role in making state-of-art remote sensing and Geographic Information System (GIS) technology, Mobile and Web based hosting of maps on&nbsp; internet&nbsp; for use in the G2G (Govt. to Govt.). MRSAC has the ambitious plan of making the data available on G2C (Govt. to Citizen) domain. The huge repository of thematic database on&nbsp; various scales follow the Maharashtra Geo-database Design Standards and are uploaded with proper topology, domain structure and migrated to the ambitious <strong>&lsquo;State Data Centre&rsquo;</strong> (SDC) of Government of Maharashtra, as digital web data services. The Centre envisages to serve the data on web to the various line departments, for multiple queries, analysis; etc. and updating can be done at the client side (line department) and once authenticated, shall be hosted on the web. This ensure that data redundancy is eliminated and only one &nbsp;unique data set is used by the various departments of Government, &nbsp;for various applications; making decisions easier, viable, timesaving transparent and effective.<br />
+&nbsp; &nbsp; &nbsp;MRSAC, works in tandem with the Planning Department, GOM, and has further established two more centres at Mumbai (2013) and Pune (2014) for smooth functioning and timely decisions in the various projects of the state. MRSAC is also providing soft skill training and capacity-building to various Government officials, Administrators, NGO&rsquo;s and students from various universities.<br />
+&nbsp; &nbsp; &nbsp;MRSAC is taking every effort to empower the state with scientific inputs, through the latest technologies; using the rich and wide-ranging digital database, on various themes. Today, MRSAC is recognized as one of the best centers in Natural Resource Monitoring and Management, coupled with GIS and re-affirms its commitment towards a better, transparent, vibrant and implementable e- Governed Maharashtra. </span></p>
+ 
+                </div>
+                </div>
+                <!-- About Section End-->
+
+                <!-- Mahabhumi Section Start-->
+                <div class="container-fluid gray-bg no-padding">
+                <div class="container no-padding">
+                <div class="col-lg-12 col-sm-12 col-xs-12 custome">
+                <h4 class="main-heading hr">MahaBHUMI</h4> <span class="orange font_orange"> </span> 
+                <br>
+                <br>
+                <p style="text-align:justify"><span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif">&nbsp; &nbsp; </span></span>The creation of National GIS, as spelled out by the Planning Commission, Government of India, in the twelfth Five Year Plan 2012-17, envisages a GIS Decision Support Tool based on latest satellite data of very high resolution of 30 -50 cm for effective and transparent planning leading to better e-governance.<br />
+&nbsp; &nbsp; MRSAC has pro-actively taken up the challenge to create a very high resolution database on various themes for Maharashtra and the Govt. of Maharashtra &nbsp;has entrusted this prestigious project to MRSAC with a<strong> GR (San. No. 1015/ Pra. Kra. 129/Ka. 1426) dated 28 April 2016. </strong>The GR states that MRSAC shall be &nbsp;the<strong> Nodal Agency</strong> for Geo-spatial Activities of the State with a mandate to establish a Maharashtra Geo-spatial Database System (MahaBHUMI) to use remote sensing, GIS, GPS, Satellite Photogrammetry, RADAR, LiDAR for various sectors for creation of a complete thematic database for good e-governance.<span style="font-size:12px"><span style="font-family:Arial,Helvetica,sans-serif"> </span></span></p>
+                 </div>
+                </div>
+                </div>
+                <!-- Mahabhumi Section End-->
+
+                <!-- Project Section Start-->
+            <div class="container-fluid no-padding">
+                 <div class="container no-padding">
+                     
+                <div class="col-lg-4 col-sm-4 col-xs-12 custome">
+                
+                 <h4 class="main-heading hr">Our</h4> <span class="orange font_orange">Projects </span> 
+                
+                    <div class="clearboth"></div>
+                    <br>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 custome no-padding gray-bg6 paddtop0">
+                   <ul class="view_manage">
+                                   <li class="wrapping_for_posts"><a href="Homepage/fetch_project_category?id=22" class="new_custom" >MahaBHUMI</a></li>
+                                   <li class="wrapping_for_posts"><a href="Homepage/fetch_project_category?id=23" class="new_custom" >Asset Mapping / Facility Mapping</a></li>
+                                   <li class="wrapping_for_posts"><a href="Homepage/fetch_project_category?id=20" class="new_custom" >Application of Remote Sensing and GIS </a></li>
+                                   <li class="wrapping_for_posts"><a href="Homepage/fetch_project_category?id=27" class="new_custom" >UAV/LIDAR</a></li>
+                                   <li class="wrapping_for_posts"><a href="Homepage/fetch_project_category?id=25" class="new_custom" >CM Flagship</a></li>
+                                   <li class="wrapping_for_posts"><a href="Homepage/fetch_project_category?id=26" class="new_custom" >Land Records</a></li>
+                                   </ul>
+                   <p class="link-bg"><b class="orange "><a href="/MRSAC/flipbook/projects">View All    </a></b></p>
+                   </div>
+                 </div>
+                 <!-- Project Section End-->
+
+                 <!-- Thrust Area Section Start-->
+                    <div class="col-lg-4 col-sm-4 col-xs-12 custome">
+                     <h4 class="main-heading hr">Thrust</h4> <span class="orange font_orange">Area </span> 
+                    <div class="clearboth"></div>
+                    <br/>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 custome no-padding gray-bg6 paddtop0">
+                   <ul class="view_manage">
+                                                            
+                            <li class="wrapping_for_posts"><a href="assets/css/MRSAC/pages/remote_sensing" class="new_custom">Remote Sensing </a></li>
+                                                                    
+                            <li class="wrapping_for_posts"><a href="assets/css/MRSAC/pages/digital_image_processing" class="new_custom">Digital Image Processing</a></li>
+                                                                    
+                            <li class="wrapping_for_posts"><a href="assets/css/MRSAC/pages/photogrammetry" class="new_custom">Photogrammetry</a></li>
+                                                                    
+                            <li class="wrapping_for_posts"><a href="assets/css/MRSAC/pages/geographical_information_system" class="new_custom">Geographical Information System</a></li>
+                                                                    
+                            <li class="wrapping_for_posts"><a href="assets/css/MRSAC/pages/drone_technology" class="new_custom">Drone Technology</a></li>
+                                                                    
+                            <li class="wrapping_for_posts"><a href="assets/css/MRSAC/pages/lidar_technology" class="new_custom">LiDAR Technology</a></li>
+                                               </ul>
+                   <p class="link-bg"><b class="orange"><a href="/MRSAC/homepage/all_thrust_area">View All</a></b></p>
+                    </div>
+                   </div>
+             <!-- Thrust Area Section End-->
+
+              <!-- Latest News Post Section Start-->
+                <div class="col-lg-4 col-sm-4 col-xs-12 custome">
+                 <h4 class="main-heading hr" >Latest</h4> 
+                 <span class="orange font_orange">News </span> 
+                <div class="clearboth"></div>
+                  <br>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 custome no-padding gray-bg6">
+                       <div class="view_manage">
+                                            </div>
+                    <p class="link-bg"><b class="orange"><a href="/MRSAC/news/current_news">View All</a></b></p>
+                    </div>
+                    
+                </div>
+             <!-- Latest News Post Section End-->
+
+                <div class="col-lg-4 col-sm-4 col-xs-12 custome">
+                         <h4 class="main-heading hr">Our</h4> <span class="orange font_orange">Maps </span> 
+                
+                    <div class="clearboth"></div>
+                    <br>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 custome no-padding gray-bg6 paddtop0">
+                    
+                    <ul class="view_manage">
+                                        
+                    <li class="wrapping_for_posts"><a href="Homepage/fetch_map_category?id=21"   class="new_custom"   >Division wise Political Maps</a></li>
+                                        
+                    <li class="wrapping_for_posts"><a href="Homepage/fetch_map_category?id=19"   class="new_custom"   >District wise Political Maps</a></li>
+                                        
+                    <li class="wrapping_for_posts"><a href="Homepage/fetch_map_category?id=22"   class="new_custom"   >Maharashtra State Boundary Map</a></li>
+                                        
+                    <li class="wrapping_for_posts"><a href="Homepage/fetch_map_category?id=20"   class="new_custom"   >Taluka wise Village Maps</a></li>
+                                       </ul>
+                    <p class="link-bg"><b class="orange "><a href="/MRSAC/map/map">View All</a></b></p>
+                   
+                    </div>
+                </div>
+            
+                <div class="col-lg-4 col-sm-4 col-xs-12 custome">
+                         <h4 class="main-heading hr">Latest</h4> <span class="orange font_orange"> Technologies </span> 
+                    <div class="clearboth"></div>
+                    <br>
+                    <div class="col-lg-12 col-sm-12 col-xs-12 custome no-padding gray-bg6 paddtop0">
+                     <ul class="view_manage">
+                                       </ul>
+                    <p class="link-bg"><b class="orange "><a href="/MRSAC/Homepage/all_samples">View All</a></b></p>
+                   
+                    </div>
+                </div>
+                  <div class="col-lg-4 col-sm-4 col-xs-12 custome">
+                <h4 class="main-heading">Gallery<span class="orange"> <a href="Galleries/image_gallery" id="get_menu_id_for_photo" >Photo </a>& <a href="Galleries/video_gallery/Drone+Images"> Video </a> </span></h4>
+                <hr>
+                
+                <div class="col-lg-12 col-sm-12 col-xs-12 custome no-padding gray-bg6">
+                
+                
+                <div id="quote1">
+                <div class="wrapper ">
+                        <h4 class="blink">Trending Now</h4>
+                <a href="Galleries/video_gallery/Drone+Images"> <video height="180" id="myVideo" preload="metadata" class="video"    controlsList="nodownload">
+                <source  src="assets/css/writereaddata/MRSAC/files/videos/16348019476171191bec497Point_Cloud_3D_View_MRSAC.mp4" type="video/mp4"  />
+                </video></a>
+                <div id="video-controls">
+                <input id="vol-control" type="range" min="0" max="100" step="1"/>
+                </div>
+                <div class="playpause" id="play_video" ></div>
+                <div class="pause" id="pause_video" ></div>
+                </div> 
+                <h4 class="video_descname">Point Cloud 3D View MRSAC Building</h4>
+                </div>
+                
+                <div id="quote2" >
+                <div class="col-md-12" >
+                                <div class="col-md-4 margin_for_gallary"><span><a href="Galleries/image_gallery"><img src="assets/css/writereaddata/MRSAC/files/15179132335a798491117d0INAUGURAL_SESSION.jpg"  class="homepage_image" ></a></span> </div>
+                                
+                                <div class="col-md-4 margin_for_gallary"><a href="Galleries/image_gallery"><img src="assets/css/writereaddata/MRSAC/files/15179147005a798a4c426983_0.jpg" class="homepage_image" ></a></div> 
+                                
+                                <div class="col-md-4 margin_for_gallary"><a href="Galleries/image_gallery"><img src="assets/css/writereaddata/MRSAC/files/15180971875a7c532309ab1MRSAC_STALL_AT_THE_CONF-2..jpg" class="homepage_image" ></a></div>               
+                                
+                                <div class="col-md-4 margin_for_gallary"> <a href="Galleries/image_gallery"><img src="/writereaddata/MRSAC/files/15179132785a7984be9c377TECHNICAL_SESSION.jpg" class="homepage_image" ></a></div>               
+                                
+                                <div class="col-md-4 margin_for_gallary"><a href="Galleries/image_gallery"><img src="assets/css/writereaddata/MRSAC/files/15180971175a7c52dd0968eMRSAC_STALL_AT_THE_CONF-1..jpg"  class="homepage_image" ></a> </div>             
+                                
+                                <div class="col-md-4 margin_for_gallary"><a href="Galleries/image_gallery"><img src="assets/css/writereaddata/MRSAC/files/15179141945a7988520ed2d1_0.jpg" class="homepage_image" ></a></div>                              
+                
+                
+                
+                </div>
+        
+                </div>
+                    
+                </div>
+          </div>
+        
+           </div>
+           </div>
+           
+           
+           <div class="container-fluid blue-bg no-padding">
+                     <div class="container no-padding">
+             <div class="col-lg-12 col-sm-12 col-xs-12 custome no-padding">
+                           
+              <div class="col-lg-4 col-sm-4 col-xs-12 white" >
+               <h4 class="blue-bg-heading hr">Services</h4>
+               <br>
+               <br>
+               <div class="clearboth"></div>
+                <div class="col-lg-12 col-sm-12 col-xs-12 blue blue_strip_homepage margin-top3">
+              <div class="wrapping_for_services_mr">
+               <ul>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Efforts for Better E-governance</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Resources Mapping , Monitoring and Management</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Transparency in Government work</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Ease-of-doing business</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Ease-of-working</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Use of &nbsp;new technology like Unmanned Aerial Vehicle (UAV), LiDAR, 3 D Mapping for advanced &nbsp;survey and mapping</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Mapping of Urban Local Bodies, Municipalities and Councils, Gram Panchayats</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Infrastructure Mapping (AM/FM)</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Hydrologic applications</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Agricultural applications like crop acreage and &nbsp;production forecast, drought forecast, compensation and crop insurance&nbsp;&nbsp;etc.,</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Asset Mapping using mobile for transport, industries, soil and water conservation, &nbsp;irrigation, water &nbsp;supply and sanitation, ports,&nbsp;&nbsp;schools, health etc.</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Ecological Applications and Forestry</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Coastal Mapping and Management</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Archeological and heritage site mapping and conservation</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Alert generation through geo-fencing on mobile for monitoring the events in Govt. departments</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Serving maps on web and dedicated customised applications for various departments</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Solutions in G2G environment and G2C applications</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Knowledge sharing&nbsp;&nbsp;in geo-spatial activities with other states and Central Government</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Disaster Mapping and Monitoring, Decision Support System</span><br />
+    &nbsp;</li>
+</ul>
+               </div>
+                <a href="/MRSAC/pages/services" >
+                <div class="orange-button left_view_All_button_marathi"  >View All</div></a>
+               </div>
+               </div>
+              
+               
+                <div class="col-lg-4 col-sm-4 col-xs-12">
+                 <h4 class="blue-bg-heading hr">Events</h4>
+               
+               <div class="clearboth"></div>
+               <br>
+               <div class="col-lg-12 col-sm-12 col-xs-12 blue blue_strip_homepage " >
+                   <br>
+                           <div class="col-lg-12 col-sm-12 col-xs-12 no-padding mb15">
+               <div class="col-lg-4 col-sm-4 col-xs-12 "><img src="assets/css/writereaddata/MRSAC/files/165995360062f0e1c0e2b72flag.png" class="event_image" ></div>
+               <div class="col-lg-8 col-sm-8 col-xs-12 custome-padding">
+                <p class="wrapping_for_events">घरोघरी तिरंगा </p>
+                <a href="/MRSAC/events/event/%E0%A4%98%E0%A4%B0%E0%A5%8B%E0%A4%98%E0%A4%B0%E0%A5%80-%E0%A4%A4%E0%A4%BF%E0%A4%B0%E0%A4%82%E0%A4%97%E0%A4%BE">Read More..</a>             </div>
+                
+               </div>
+                          
+               <a href="events/current_events" ><div class="orange-button left_view_All_button"  >View All</div></a>
+              
+              </div>
+               </div>
+               
+                <div class="col-lg-4 col-sm-4 col-xs-12 white">
+                <h4 class="blue-bg-heading hr">Training</h4>
+              <br>
+               <br>
+                 <div class="clearboth"></div>
+                  <div class="col-lg-12 col-sm-12 col-xs-12 blue blue_strip_homepage " >
+                  <br>
+                 
+               <div class="wrapping_for_training_mr overflowhide">
+               <p><span style="font-family:Arial,Helvetica,sans-serif"><strong>Capacity Building</strong></span></p>
+
+<ul>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Training to officials of Line Departments of Govt. of Maharashtra</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Training to the faculty members of Universities and Colleges in Remote Sensing and GIS</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Delivering invited talks/lectures at Univeristies, Academy staff colleges and other institutions for the promotion of the technology in the state</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Visits of faculty members of the academic institutions</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Visits of School and college students for various lectures and visit to institutions</span></li>
+    <li><span style="font-family:Arial,Helvetica,sans-serif">Participation in various National and State level exhibition like IISF, Lucknow, 2018, Krishi Vasant 2017, National Geo-Spatial Forum 2016-17 etc.&nbsp;</span></li>
+</ul>
+               </div>
+               <!-- make url dyamic // change on 03-05-2019 // mohammed saif-->  
+               <a href="/MRSAC/pages/trainings"  >
+               <div class="orange-button posrel top12 pull-right">View All</div>
+               </a>
+            
+                </div>
+                
+                <div class="col-lg-12 col-sm-12 col-xs-12 no-padding">
+               <h4 class="blue-bg-heading hr">Transparency</h4>
+            
+               <div class="clearboth"></div>
+               
+                 <div class="col-lg-12 col-sm-12 col-xs-12 white blue_strip_homepage margin-top24">
+               <ul>
+              <li class="transper_li transperncy_line_height"><a href="/MRSAC/pages/rti" class="text-white">Right to Information </a> </li>
+              <li class="transper_li transperncy_line_height">   <a href="/MRSAC/pages/faq" class="text-white">FAQ's </a> </li>
+              <li class="transper_li transperncy_line_height">   <a href="/MRSAC/pages/public_grievance" class="text-white">Public Grievance</a></li>
+              <li class="transper_li transperncy_line_height">   <a href="/MRSAC/pages/public_grievance" class="text-white">Other</a></li>
+             
+             </ul>
+
+            </div>
+               </div>
+              
+               </div>
+               
+            </div>
+            </div>
+            </div>
+           
+           
+            <div class="container-fluid no-padding mt30">
+                      <div class="container no-padding">
+                             <div class="col-lg-12 col-sm-12 col-xs-12 no-padding">
+                             <div class="col-lg-3 col-sm-3 col-xs-12 text-center">
+                             <a href="users/login_user">
+                             <img src="assets/css/MRSAC/images/icon1.png">
+                              <p class="bottom-heading">Employee Login</p>
+                             <p class="font13">This link will redirect to Employee login section. </p> 
+                              </a>
+                             </div>
+                              <div class="col-lg-3 col-sm-3 col-xs-12 text-center">
+                              <a href="mobiledirectory/list_of_mobile_directory">
+                             <img src="assets/css/MRSAC/images/icon2.png">
+                            
+                             <p class="bottom-heading">Mobile App Directory</p>
+                             <p class="font13">Mobile directory includes list of all app directory. </p>
+                              </a>
+                            </div>
+                              <div class="col-lg-3 col-sm-3 col-xs-12 text-center">
+                               <a href="assets/css/MRSAC/homepage/event_lists">
+                             <img src="assets/css/MRSAC/images/icon3.png">
+                              
+                              <p class="bottom-heading">Calendar</p>
+                             <p class="font13">Calender includes list of month-wise holidays and events. </p> 
+                              </a>
+                            </div>
+                            
+
+                             <div class="col-lg-3 col-sm-3 col-xs-12 text-center">
+                               <a href="Webdirectory/list_of_web_directory">
+                             <img src="assets/css/MRSAC/images/icon4.png">
+                               
+                             <p class="bottom-heading">Directory of Websites</p>
+                             <p class="font13">Directory of Websites includes list of all website directories.  </p> </div>
+                            
+                             </a></div>
+                             
+                             </div>
+                    </div>
+           
+           
+            <div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="6298f70b223a905ac5f608f3046e82e91aa7c3ae%3A"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value=""/></div></form>       
+    <link rel="stylesheet" href="assets/css/MRSAC/css/Homepage/Homepagehome.css"/><script src="assets/css/MRSAC/js/Homepage/Homepagehome.js"></script>    
+
+                                    
+                    <div class="clear"></div>
+                <!-- fetching page data end-->  
+
+                
+    <!-- Page Content -->
+
+
+    <!-- Footer -->
+    <footer class="clearfix float-left w-100 clearfix">
+            <section class="footersection1 py-4 clearfix">
+                <div class="container2">
+                    <div class="row2">
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footerbox">
+                                
+                                <h2>Nodal Officer:</h2>
+                                <h5>Dr. Rajeev Jain</h5>
+                                <h6>Project Director</h6>
+                                <p><span class="ti-map-alt footerIcon"></span>7X4P+9V7, Subhash Nagar, Pal Road, Jodhpur, Rajasthan 342008 </p>
+                                <p><span class="ti-headphone footerIcon"></span>02912785105</p>
+                                <!-- <p><span class="ti-email footerIcon"></span>director-dst@rajasthan.govin</p> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footerbox">
+                                
+                                <h2>Quick Links</h2>
+                                <ul>
+                                    <li><a href="https://jankalyan.rajasthan.gov.in/#/home">Jankalyan Portal, rajasthan</a></li>
+                                    <li><a href="http://satcom.rajasthan.gov.in/Pages_All/Index.aspx">SATCOM, DST-Rajasthan</a></li>
+                                    <li><a href="https://assembly.rajasthan.gov.in/">Vidhansabha, rajasthan</a></li>
+                                    <li><a href="https://cmo.rajasthan.gov.in/">CMO, Rajasthan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footerbox">
+                                
+                                <h2>Important Links</h2>
+                                <ul>
+                                    <li><a href="https://rajasthan.gov.in/">Rajasthan Government</a></li>
+                                    <li><a href="https://finance.rajasthan.gov.in/website/">Finance department</a></li>
+                                    <li><a href="https://environment.rajasthan.gov.in/content/environment/en.html#">Department of Environment</a></li>
+                                    <li><a href="https://education.rajasthan.gov.in/">Department of Education</a></li>
+                                    <li><a href="https://plan.rajasthan.gov.in/home/dptHome">Department of Planning</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12">
+                            <div class="footerbox">
+                                <h2>Vistior &amp; Updated Date</h2>
+                                <div class="vistorbox">
+                                    <p>You are Vistior No : </p>
+                                    <span>
+                                        <span id="lblVisitorCounter">272602</span></span>
+                                </div>
+                                <div class="vistorbox">
+                                    <p>Last Updated Date :</p>
+                                    <span>
+                                        <span id="lblUpdateMsg">23/05/2024</span></span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="footersection2 text-center">
+                <div class="container-fluid">
+                    <p>Website Developed &amp; Managed by <a href="https://dst.rajasthan.gov.in/">RISL TEAM</a> And Data Maintained By DST</p>
+                </div>
+            </section>
+        </footer>
+        
+
+
+<script src="assets/css/MRSAC/js/element/frontend_pages_view/frontend_site_bottom.js"></script>
+
+    
+    
+    <script src="assets/css/MRSAC/js/jquery_new.min.js"></script> <script src="/MRSAC/js/bootstrap.min.js"></script>  <script src="assets/css/MRSAC/js/jquery.slides.min.js"></script>  <script src="assets/css/MRSAC/js/bootstrap-datepicker.js"></script>   <script src="assets/css/MRSAC/js/allinone.js"></script>       <script src="assets/css/MRSAC/js/layout/frontend_homepage_layout.js"></script>
+
+    
+    <script src="/MRSAC/js/element/scrollerspeed.js"></script>
+    </div>
+    
+</body>
+
+</html>

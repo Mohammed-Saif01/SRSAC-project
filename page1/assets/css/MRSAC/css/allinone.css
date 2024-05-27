@@ -1,0 +1,43 @@
+.video {
+      width: 200%;
+    border: 1px solid black;
+}
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:50%;
+}
+.boxes div {
+    display: none;
+}
+.playpause {
+     background-image:url("../img/play.png");
+    background-repeat:no-repeat;
+    width:18%;
+       height: 32px;
+    position:absolute;
+     left: 91%;
+
+    right:0%;
+    top:0%;
+    bottom:9%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
+.pause {
+     background-image:url("../img/pause.png");
+    background-repeat:no-repeat;
+    width:18%;
+      height: 31px;
+    position:absolute;
+     left: 91%;
+
+    right:0%;
+    top:0%;
+    bottom:9%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+}
