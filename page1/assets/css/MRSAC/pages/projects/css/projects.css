@@ -1,0 +1,56 @@
+
+.search-button {padding: 6px 12px;font-size: 14px;font-weight: 400;line-height: 1;color: #555;text-align: center;background-color: #eee;border: 1px solid #ccc;}
+
+.category-name {    
+ width: 97%;
+    border: 6px solid #747474;
+    background: #747474;
+    color: #fff;
+    margin: 15px 3px 6px 31px; }
+
+.dashboard_content{width: 100%;}
+
+.select {margin-top: 15px;}
+
+.book-cover { padding: 15px !important; border: 1px solid #f99212; margin:2%; background: #506d90; }
+
+.book-title  { float:right; width: 200px; margin-left: 20px; }	
+.book-title a {color: #ff9f3c;
+    
+    font-weight: 500; }	
+.book-title a:hover { text-decoration: none; color: #ff8000; }	
+
+.book-description  { margin-top: 20px;  color: #fff;}
+
+.image_box {    border-radius: 12px;
+    border: 3px solid #fff;
+    width: 150px;
+    height: 200px; }
+
+@media screen and ( min-width: 200px) and (max-width: 530px)  {    
+	
+	.book-description  { margin-top: 0px !important;}	
+	.book-title  { float:none; width: none; margin-left: 0px; font-size: 10px;}	
+	.book-title  h4{ font-size: 12px;}
+	
+	.category-name { margin:30px 0px 0px 30px; }
+	.image_category {width:none;}
+	.image_box {     border-radius: 12px;
+    border: 3px solid #fff;
+    width: 150px;
+    height: 200px;}
+}
+
+@media screen and ( min-width: 750px) and (max-width: 980px)  {    
+	
+	.book-description  { margin-top: 0px !important; }	
+	.book-title  { float:none; width: 100%; margin-left: 0px; font-size: 10px;}	
+	.book-title  h4{ font-size: 12px;}
+	
+	.category-name { margin:30px 0px 0px 30px; }
+	.image_category {width:29.333%;}
+	.image_box {    border-radius: 12px;
+    border: 3px solid #fff;
+    width: 150px;
+    height: 200px;}
+}
